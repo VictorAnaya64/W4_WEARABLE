@@ -62,4 +62,4 @@ Skiny_DS<- group_by(Skiny_DS,act.labels,subject,variable)
 #based on the groups defined in the dataset
 Step5_DS<-summarise(Skiny_DS,mean(value))
 
-write.table(Step5_DS, "wearable.txt", sep="\t")
+write.table(Step5_DS, "wearable.txt", sep="\t",row.name=FALSE)
