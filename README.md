@@ -8,3 +8,9 @@ Files:
 -Codebook.md: Contains the description of the source and all steps
 
 -wearable.txt is the final data set (step5)
+
+
+To be able to run the program you shoul have the folder with all samsung data in a folder called "UCI HAR Dataset" with the same structure from the zip.
+
+Then run the code of run_analysis.R (keep in mind it uses some packages you need to install).
+
